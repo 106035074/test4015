@@ -1,0 +1,27 @@
+install.packages('devtools')
+devtools::install_github("rstudio/shiny-incubator",force = TRUE)
+devtools::install_github("metagraf/rHighcharts",force = TRUE)
+devtools::install_github('ramnathv/rCharts',force = TRUE)
+install.packages('qdapTools')
+install.packages('xml2')
+install.packages("C:/Users/User/Desktop/autoplatform/autoplatform/step1/shiny_1.0.2.zip", repos = NULL, type = "win.binary")
+shiny::runApp('C:/Users/User/Desktop/autoplatform/autoplatform/platform')
+install.packages("C:/Users/User/Desktop/autoplatform/step1/curl_2.5.zip", repos = NULL, type = "win.binary")
+runApp('C:/Users/User/Desktop/autoplatform/autoplatform/platform')
+shiny::runApp('C:/Users/User/Desktop/autoplatform/autoplatform/platform')
+runApp('C:/Users/User/Desktop/autoplatform/autoplatform/platform')
+local({pkg <- select.list(sort(.packages(all.available = TRUE)),graphics=TRUE)
+if(nchar(pkg)) library(pkg, character.only=TRUE)})
+utils:::menuInstallPkgs()
+q()
+load("C:/Users/User/Downloads/2018Q4_20.csv")
+install.packages("quantmod")
+install.packages
+install.packages("quantmod")
+library(quantmod)
+getSymbols("AAPL",from = "2016-06-01",to = Sys.Date(),src = "yahoo")
+1101
+1101.TW台泥
+1101.Two台泥
+savehistory("C:/Users/User/Desktop/tw20.txt")
+savehistory("C:/Users/User/Desktop/tw20.txt")
